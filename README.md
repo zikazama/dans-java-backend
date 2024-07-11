@@ -1,10 +1,24 @@
-# Java API Service Starter
+# Spring Boot JWT Authentication Example
 
-This is a minimal Java API service starter based on [Google Cloud Run Quickstart](https://cloud.google.com/run/docs/quickstarts/build-and-deploy/deploy-java-service).
+This is a simple Spring Boot application that demonstrates how to implement JWT-based authentication and authorization. The application includes endpoints for user login, fetching job listings, and fetching job details.
+
+## Features
+
+- JWT authentication and authorization
+- User authentication with Spring Security
+- Fetch job listings and job details from external API
+- MySQL database integration
+
+## Prerequisites
+
+- Java 11 or higher
+- Maven
+- MySQL server
 
 ## Getting Started
 
-Server should run automatically when starting a workspace. To run manually, run:
+### Clone the repository
+
 ```sh
-mvn spring-boot:run
-```# dans-java-backend
+git clone https://github.com/zikazama/dans-java-backend.git
+cd dans-java-backend
